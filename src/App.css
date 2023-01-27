@@ -1,1 +1,10 @@
 /* Временные стили добавлять здесь */
+.new_padding {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 16px;
+    padding-top: 16px;
+}
+.new_margin {
+    margin-top: 162px;
+}
