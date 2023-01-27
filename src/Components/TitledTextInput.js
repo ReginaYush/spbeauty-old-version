@@ -2,12 +2,14 @@ import styled from "styled-components";
 
 const Input = styled.input`
     outline: none;
-    border-radius: 0px;
-    border: solid #152842 1px;
-    background-color: #D9E2EF;
-    color: #666787;
+    border: 1px solid #E2E8F0;
+    border-radius: 24px;
+    background: #F8FAFC;
+    color: #94A3B8;
     &:hover {
-        background-color: #D9E2EFB8;
+        background: #F8FAFC;
+        border: 1px solid #E2E8F0;
+        border-radius: 24px;
     }
 `;
 
