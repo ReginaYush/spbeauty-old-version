@@ -21,9 +21,9 @@ const Select = styled.select`
 function TitledSelector({title, options}) {
     const Title = title === undefined ? 
         (<div></div>) : 
-        (<div>{title}</div>);
+        (<div className='caption-rg new_color'>{title}</div>);
     return (
-        <div className='d-flex flex-column gap-2 '>
+        <div className='d-flex flex-column gap-2'>
             {Title}
             <Select className='p-2 '>
                 {options.map(optionName => {
